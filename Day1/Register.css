@@ -1,0 +1,61 @@
+.create-account-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 0px;
+}
+
+.cruise-image {
+  width: 50%;
+  height: 100%;
+  /* Add background image and styling for cruise image */
+}
+
+.form-container {
+    position: absolute;
+  width: 500px;
+  left:650px;
+
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: #7a1b6c;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color:rgb(84, 84, 166);
+
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #93288E;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #7a1b6c;
+}
