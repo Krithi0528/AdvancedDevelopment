@@ -1,0 +1,163 @@
+.booking-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .cruise-list {
+    width: 30%;
+  }
+  
+  .cruise-list h2 {
+    font-size: 18px;
+  }
+  
+  .cruise-list ul {
+    list-style-type: none;
+  }
+  
+  .cruise-list li {
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .booking-details {
+    width: 60%;
+  }
+  
+  .booking-details h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .booking-form {
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .room-selection {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .arrow {
+    font-size: 24px;
+    margin: 0 20px;
+  }
+  
+  .guest-selection {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .guest-category {
+    margin-bottom: 10px;
+  }
+  
+  .room-category {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }  
+  .booking-page {
+    margin-top: 20px;
+  }
+  
+  .room-category {
+    display: flex;
+    align-items: center;
+  }
+  
+  .room-details {
+    margin-left: 20px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  .booking-page {
+    margin: auto;
+    width: 50%;
+  }
+  
+  .room-options {
+    margin-top: 20px;
+  }
+  
+  .guest-info {
+    margin-top: 20px;
+  }
+  
+  .room-category {
+    margin-top: 20px;
+  }
+  
+  .add-room-btn {
+    margin-top: 20px;
+  }
+  
+  .continue-btn {
+    margin-top: 10px;
+  }
+/* BookingPage.css */
+
+.guest-info {
+    margin-top: 20px;
+  }
+  
+  .guest-info h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .guest-info div {
+    margin-bottom: 15px;
+  }
+  
+  .guest-info label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .guest-info input[type="number"] {
+    width: 100px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .add-room-btn,
+  .continue-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .add-room-btn:hover,
+  .continue-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .add-room-btn {
+    margin-right: 10px;
+  }
+      
