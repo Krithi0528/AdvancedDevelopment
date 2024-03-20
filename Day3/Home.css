@@ -1,0 +1,83 @@
+.carouselj-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Set container to relative position */
+}
+
+.carouselj-image {
+    height: 550px;
+    width: 100%;
+}
+
+.carouselj-caption-overlay {
+    position: absolute;
+    top: 100px; /* Position vertically at the middle */
+    right: 0px; /* Position horizontally at the middle */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 100px; /* Increase font size */
+    font-weight:bolder; /* Make text bold */
+    padding: 20px;
+    color: hwb(240 99% 0%);
+}
+
+.book-now-button2j {
+    position: absolute;
+    height: 50px;
+    width: 180px;
+    bottom: 270px; /* Adjust as needed */
+    left: 75%; /* Position horizontally at the middle */
+    transform: translateX(-50%);
+    padding: 5px 30px; /* Adjust padding as needed */
+    background-color: #6b1955eb; /* Add your desired button background color */
+    color: hsl(0, 0%, 94%); /* Add your desired button text color */
+    font-size: 24px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.book-now-buttonj {
+    position: absolute;
+    height: 50px;
+    width: 180px;
+    bottom: 160px; /* Adjust as needed */
+    left: 76%; /* Position horizontally at the middle */
+    transform: translateX(-50%);
+    padding: 5px 30px; /* Adjust padding as needed */
+    background-color: #6b1955eb; /* Add your desired button background color */
+    color: hsl(0, 0%, 94%); /* Add your desired button text color */
+    font-size: 24px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.rectanglej {
+    position: absolute;
+    bottom: 0px;
+    width: 1280px;
+    height: 85px;
+    background-color: #00000076; /* Add your desired background color */
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.rectanglej-content p {
+    margin: -2px;
+    margin-left: 0px;
+    color:white;
+    font-size: 19px;
+    font-family: Outfit, outfit;
+}
+
+.rectanglej-content .line {
+    width: 100%;
+    height: 1px;
+    background-color: #ffffff; /* White line */
+    margin: 5px 0; /* Adjust spacing */
+}
+.cabin-info {
+    font-weight: bold; /* Increase font weight for cabin info */
+}
+
+.price-info {
+    font-weight: bold; /* Increase font weight for price info */
+}

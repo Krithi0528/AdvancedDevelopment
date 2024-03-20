@@ -1,0 +1,273 @@
+.rect {
+    height: 3000px;
+    width: 1263px;
+    background-color: white;
+    position: relative;
+  }
+  .back{
+    position: absolute;
+    position: relative;
+    top: 0px;
+  }
+  .back2{
+    position: absolute;
+    position: relative;
+    top: 230px;
+    right: 6%;
+  }
+  .back3{
+    position: absolute;
+    top: 830px;
+    left: 1120px;
+  }
+  .back4{
+    position: absolute;
+    top:  1020px;
+    left: 1050px;
+  }
+  .ship {
+    position: absolute;
+    top: 3100px;
+  }
+  
+  .text-container{
+    position: absolute;
+    top: 5%;
+    left: 16%;
+    font-size: 50px;
+    font-family: Open Sans, sans-serif;
+    font-weight:bolder;
+    color:#93288E;
+  }
+  
+  .text-container2{
+    position: absolute;
+    font-family: Open Sans, sans-serif;
+    color: #93288E;
+    font-size: 50px;
+    font-weight:bolder;
+    top: 5%;
+    left: 46%;
+  }
+  .text-container3{
+    position: absolute;
+    font-family: Outfit,outfit;
+    color: rgb(112 112 112);
+    font-size: 20px;
+    font: weight 400px;;
+    top: 17%;
+    left: 16%;
+  }
+  .text-container4{
+    position: absolute;
+    font-family: Open Sans, sans-serif;
+    color:#93288E;
+    font-size: 40px;
+    font-weight:bolder;
+    top: 22%;
+    left: 17%;
+  }
+  .text-container5{
+    position: absolute;
+    font-family: Outfit,outfit;
+    color: rgb(112 112 112);
+    font-size: 20px;
+    font: weight 400px;;
+    top: 720px;
+    left: 16%;
+  }
+  .video-container {
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .video-container video {
+    width: 710px;
+    height: 400px;
+  }
+  .text-container6{
+    position: absolute;
+    font-family: Open Sans, sans-serif;
+    color:#93288E;
+    font-size: 40px;
+    font-weight:bolder;
+    top: 41%;
+    left: 39%;
+  }
+  .text-container7{
+    position: absolute;
+    font-family: Outfit,outfit;
+    color: rgb(112 112 112);
+    font-size: 20px;
+    font: weight 400px;;
+    top: 1290px;
+    left: 12%;
+  } 
+  .buttons-container {
+    position: absolute;
+    top: 1350px; /* Adjust as needed */
+    left: 20%; /* Adjust as needed */
+    display: flex;
+    justify-content: space-between;
+    width: 63%; /* Adjust as needed */
+  }
+  
+  .button{
+    padding: 15px 60px;
+    color: #93288E;
+    background-color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #93288E;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #6C1A6B;
+  }
+  .rectangle2 {
+    position: absolute;
+    height: 450px;
+    width: 500px;
+    top: 0;
+    left: 75%; /* Align the left edge of the div to the middle */
+    transform: translateX(-50%); /* Center the div horizontally */
+    background-color:white;
+    padding: 20px; /* Add padding for space from left and right */
+    border-radius: 10px;
+    padding-bottom: 40px; /* Add padding to the bottom */
+  }
+  .fontint{
+    font-family: sans-serif;
+    font-weight:bolder;
+    font-size:x-large;
+  }
+  .fint{
+    font-family: sans-serif;
+    font-size:medium;
+  }
+  
+  .buttons-container2 {
+    position: absolute;
+    top: 510px; /* Adjust as needed */
+    left: 10px;
+  }
+  
+  .button2 {
+    margin-right: 8px;
+    margin-bottom: 10px;
+    margin-top:0px;
+    background-color: hsla(0, 0%, 73%, 0.251);
+    color: #000000;
+    border: none;
+    padding: 15px 6px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .carousel-container1 {
+    position: absolute;
+    top: 1450px; /* Adjust as needed */
+    left: 150px;
+    width: 1000px;
+  }
+  .carousel-image1 {
+    height: 340px;
+    width: 500px; /* Decreased width */
+    object-fit: cover; /* Maintain aspect ratio */
+  }
+  
+  .rectangle2 p {
+    margin-bottom: 10px;
+  }
+  
+  .rectangle2 ul {
+    padding-left: 20px;
+  }
+  
+  .rectangle2 ul li {
+    list-style: none;
+  }
+  .back0{
+    position: absolute;
+    position: relative;
+    top: 520px;
+    right: 12%;
+  }
+  .button0 {
+    padding: 15px 60px;
+    background-color: #93288E;
+    font-size: 16px;
+    font-weight: bold;
+    color: aliceblue;
+    border: 2px solid #93288E;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 1850px;
+    left: 550px;
+  }
+  .violetship
+  {
+    position:absolute;
+    top:2200px;
+    left:1010px;
+  }
+.girlff
+{
+    position: absolute;
+    top:1950px;
+}
+.text-containergirl1{
+    position: absolute;
+    font-family: Open Sans, sans-serif;
+    color:hsl(300, 18%, 7%);
+    font-size: 40px;
+    font-weight:bolder;
+    top: 2200px;
+    left: 24%;
+  }
+  .text-containergirl2{
+    position: absolute;
+    font-family: Open Sans, sans-serif;
+    color:#93288E;
+    font-size: 40px;
+    font-weight:bolder;
+    top: 2200px;
+    left: 43%;
+  }
+  .text-containergirl3{
+    position: absolute;
+    font-family: Outfit,outfit;
+    color: rgb(112 112 112);
+    font-size: 20px;
+    font: weight 400px;;
+    top: 2260px;
+    left: 35%;
+  }
+  .cimage{
+    position: absolute;
+    top:2300px;
+    left:4%;
+  }
+  .text-containersk1{
+    position: absolute;
+    font-family: Open Sans, sans-serif;
+    color:#000000;
+    font-size: 40px;
+    font-weight:bolder;
+    top: 2980px;
+    left: 33%;
+  }
+  .text-containersk2{
+    position: absolute;
+    font-family: Open Sans, sans-serif;
+    color:#93288E;
+    font-size: 40px;
+    font-weight:bolder;
+    top: 2980px;
+    left: 54%;
+  }
