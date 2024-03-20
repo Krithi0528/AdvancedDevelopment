@@ -1,0 +1,70 @@
+.profile-page {
+    width: 700px;
+    position: absolute;
+    left: 300px;
+    top: 100px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+  }
+  
+  .user-info {
+    margin-top: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    color: #333; /* Darken the label color */
+  }
+  
+  .form-group input[type='text'],
+  .form-group input[type='password'],
+  .form-group input[type='email'],
+  .form-group input[type='number'],
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    transition: border-color 0.3s ease; /* Add a smooth transition for input fields */
+  }
+  
+  .form-group input[type='text']:focus,
+  .form-group input[type='password']:focus,
+  .form-group input[type='email']:focus,
+  .form-group input[type='number']:focus,
+  .form-group textarea:focus {
+    border-color: #007bff; /* Change border color on focus */
+  }
+  
+  .form-group ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .form-group ul li {
+    margin-bottom: 5px;
+  }
+  
+  .button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth transition for button color */
+  }
+  
+  .button:hover {
+    background-color: #0056b3; /* Darken button color on hover */
+  }
+  

@@ -1,0 +1,117 @@
+.card {
+    top: 250px;
+    position: absolute;
+  }
+  
+  .card-img-top {
+    height: 250px; /* Adjust image height as needed */
+    object-fit: cover;
+  }
+  .card-title {
+    font-size: 1.5rem; /* Adjust title font size as needed */
+  }
+  
+  .card-text {
+    font-size: 1rem; /* Adjust text font size as needed */
+  }
+  
+  .card-text span {
+    margin-right: 5px; /* Adjust spacing between tick icon and text */
+  }
+  
+  .find-cruise-button {
+    background-color:#7a1b6c; /* Adjust button background color */
+    color: #fff; /* Adjust button text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; /* Adjust margin from text */
+  }
+  
+  .find-cruise-button:hover {
+    background-color:#7a1b6c; /* Adjust button background color */
+  }
+  .tick-icon {
+    color: violet;
+  }
+  .offerh
+  {
+   position:absolute;
+   color: #7a1b6c;
+   top:100px;
+   font-family:'Lucida Sans';
+  }
+  .offerpara
+  {
+    position:absolute;
+    color:black;
+    top:70px;
+   font-family:'Lucida Sans';
+  }
+.card-title
+{
+    color: #7a1b6c;
+}
+.footeroff {
+    position: absolute;
+    margin-top: 280px;
+    width: 100%;
+    background-color: hsl(303, 82%, 13%);
+    color: #fff;
+    padding: 50px 0;
+  }
+.footeroff-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footer-content {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.footer-content h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.footer-content p {
+  margin: 10px 0;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+.footer-links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 5px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+  
